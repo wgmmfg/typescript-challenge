@@ -14,4 +14,9 @@
  */
 export function arraySum(numbers: number[]): number {
     // 在此實現函式
+    let rtn:number = 0;
+    numbers.forEach((num) => {
+        rtn += num
+    });
+    return rtn;
 }

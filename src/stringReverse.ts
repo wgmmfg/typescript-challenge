@@ -7,4 +7,6 @@
  */
 export function reverseString(str: string): string {
     // 在此實現函式
+    const ary = str.split('');
+    return ary.reverse().join('');
 }
